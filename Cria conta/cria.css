@@ -1,0 +1,43 @@
+body{
+
+    background: radial-gradient(circle, #000000, #be1300);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff6b6b;
+    overflow: hidden;
+    text-align: center;
+    user-select: none;
+}
+
+p {
+    color: #ff6b6b;
+    
+    font-weight: bold;
+    margin-top: 20px;
+}
+#profile h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ff6b6b;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#sai{
+    background-color: rgba(14, 14, 19, 0.9); /* Fundo transparente */
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    width: 350px;
+}
+
+img{
+    width: 300px;
+    border-radius: 20px;
+}
